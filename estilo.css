@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #DDA0DD;
+    color: #495057;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8E44AD;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.dashboard {
+    width: 80%;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projeto-lista {
+    margin-top: 20px;
+}
+
+.projeto-card {
+    border: 1px solid #ced4da;
+    border-left: 5px solid #9966CC;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.projeto-card h3 {
+    margin: 0 0 10px 0;
+    color: #800080;
+}
+
+.status-em-andamento {
+    color: #F4C430;
+    font-weight: bold;
+}
+
+.status-pendente {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+#add-projeto {
+    background-color: #8E44AD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Hub</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Freelancer Hub</h1>
+        <p>Seu centro de comando para gerenciar projetos.</p>
+    </header>
+
+    <main>
+        <section class="dashboard">
+            <h2>Meus Projetos</h2>
+            <div class="projeto-lista">
+                <div class="projeto-card" id="proj-website">
+                    <h3>Design de Website para Cliente X</h3>
+                    <p>Status: <span class="status-em-andamento">Em Andamento</span></p>
+                    <button onclick="atualizarStatus('proj-website')">Concluir</button>
+                </div>
+                <div class="projeto-card" id="proj-logo">
+                    <h3>Criação de Logo para Startup Y</h3>
+                    <p>Status: <span class="status-pendente">Pendente</span></p>
+                    <button onclick="atualizarStatus('proj-logo')">Concluir</button>
+                </div>
+            </div>
+            <button id="add-projeto" onclick="adicionarProjeto()">+ Adicionar Novo Projeto</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
